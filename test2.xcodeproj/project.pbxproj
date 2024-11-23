@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		DB17F1D22CF188B700390364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17F1D12CF188B700390364 /* AppDelegate.swift */; };
 		DB17F1D42CF188B700390364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17F1D32CF188B700390364 /* SceneDelegate.swift */; };
-		DB17F1D62CF188B700390364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17F1D52CF188B700390364 /* ViewController.swift */; };
 		DB17F1D92CF188B700390364 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DB17F1D82CF188B700390364 /* Base */; };
 		DB17F1DB2CF188B800390364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB17F1DA2CF188B800390364 /* Assets.xcassets */; };
 		DB17F1DE2CF188B800390364 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DB17F1DD2CF188B800390364 /* Base */; };
+		DB17F1E62CF1891D00390364 /* mealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17F1E52CF1891D00390364 /* mealTableViewController.swift */; };
+		DB17F1E82CF18A8500390364 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17F1E72CF18A8500390364 /* Meal.swift */; };
+		DB17F1EA2CF18B7D00390364 /* Recepies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17F1E92CF18B7D00390364 /* Recepies.swift */; };
+		DB17F1F02CF193F600390364 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17F1EF2CF193F600390364 /* MealCell.swift */; };
+		DB17F1F22CF196F100390364 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17F1F12CF196F100390364 /* RecipeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB17F1CE2CF188B700390364 /* test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB17F1D12CF188B700390364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB17F1D32CF188B700390364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB17F1D52CF188B700390364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB17F1D82CF188B700390364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB17F1DA2CF188B800390364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB17F1DD2CF188B800390364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB17F1DF2CF188B800390364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB17F1E52CF1891D00390364 /* mealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealTableViewController.swift; sourceTree = "<group>"; };
+		DB17F1E72CF18A8500390364 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		DB17F1E92CF18B7D00390364 /* Recepies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recepies.swift; sourceTree = "<group>"; };
+		DB17F1EF2CF193F600390364 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		DB17F1F12CF196F100390364 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				DB17F1D12CF188B700390364 /* AppDelegate.swift */,
 				DB17F1D32CF188B700390364 /* SceneDelegate.swift */,
-				DB17F1D52CF188B700390364 /* ViewController.swift */,
 				DB17F1D72CF188B700390364 /* Main.storyboard */,
+				DB17F1F12CF196F100390364 /* RecipeDetailViewController.swift */,
+				DB17F1EF2CF193F600390364 /* MealCell.swift */,
+				DB17F1E72CF18A8500390364 /* Meal.swift */,
+				DB17F1E92CF18B7D00390364 /* Recepies.swift */,
+				DB17F1E52CF1891D00390364 /* mealTableViewController.swift */,
 				DB17F1DA2CF188B800390364 /* Assets.xcassets */,
 				DB17F1DC2CF188B800390364 /* LaunchScreen.storyboard */,
 				DB17F1DF2CF188B800390364 /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB17F1D62CF188B700390364 /* ViewController.swift in Sources */,
+				DB17F1E82CF18A8500390364 /* Meal.swift in Sources */,
+				DB17F1E62CF1891D00390364 /* mealTableViewController.swift in Sources */,
+				DB17F1F22CF196F100390364 /* RecipeDetailViewController.swift in Sources */,
 				DB17F1D22CF188B700390364 /* AppDelegate.swift in Sources */,
+				DB17F1F02CF193F600390364 /* MealCell.swift in Sources */,
+				DB17F1EA2CF18B7D00390364 /* Recepies.swift in Sources */,
 				DB17F1D42CF188B700390364 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
